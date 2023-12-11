@@ -1,0 +1,22 @@
+
+.calculator{
+    display: flex;
+    max-width: 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.calculator :first-child{
+    width: 100%;
+}
+.number{
+width: 33%;
+}
+.screen{
+    width: 100%;
+    height: 20px;
+    border: 1px solid black;
+}
+.symbols{
+    width: 33%;
+}
